@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background-color: #ddd;
+}
+
+
+
+
+/* ===============menu=============== */
+
+
+
+.menu{}
+.menu ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    justify-content: space-around;
+}
+.menu ul li{
+    border: 2px solid #fff;
+    flex-grow: 1;
+    background-color: chartreuse;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* ========================section_1================== */
+
+
+.section_1{
+    display: flex;
+}
+.section_1 .items{
+    border: 1px solid red;
+}
+.section_1 .items:not(:last-child){
+    margin-right: 10px;
+}
+
+
+
+/* ===========================section_2--------------------- */
+
+
+.section_2{
+    display: flex;
+    margin-top: 40px;
+}
+.section_2 .items{
+    border: 1px solid #000;
+}
+.section_2 .items:first-child{
+    flex-basis: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 40px;
+}
+.section_2 .items:last-child{
+    flex-basis: 30%;
+}
+
+
+
+/* ==============================section_4====================== */
+
+
+
+.section_4{
+    display: flex;
+    margin-top: 40px;
+}
+.section_4 .items{
+    border: 1px solid blue;
+    flex: 1 0 0%;
+}
+
+.section_4 .extra{
+    flex-grow: 2;
+}
+
+
+
+
+
+
+
+/* ===========================section_5==================== */
+
+
+
+.section_5{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    margin-top: 40px;
+}
+.inner{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    color: #fff;
+}
+
+
+/* =========================gellary======================= */
+
+
+
+.gellary{
+    border: 5px dashed black;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gellary img{
+    width: 300px;
+    height: 300px;
+    margin: 40px 0;
+}
